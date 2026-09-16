@@ -8,7 +8,13 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
+1. Load the dataset and separate the input features (house details) and target values (house price and number of occupants).
+
+2. Preprocess the data by handling missing values and splitting it into training and testing datasets.
+
+3. Create and train the SGD Regressor using the training data to learn the relationship between house features, price, and number of occupants.
+
+4. Predict and evaluate the house price and number of occupants using the test data, and calculate performance metrics such as Mean Squared Error (MSE).
 
 ## Program:
 ```
